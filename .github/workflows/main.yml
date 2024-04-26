@@ -1,5 +1,9 @@
 name: Generate Podcast Feeds
-on: [push]
+on:
+  push:
+    branches:
+      - main  # Adjust this to your desired branch name
+
 jobs:
   build:
     runs-on: ubuntu-latest
